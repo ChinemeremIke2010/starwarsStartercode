@@ -24,12 +24,23 @@ h1 {
   font-family: "SF Distant Galaxy";
 }
 
-
+.pic{
+  display-flex;
+  justify-content: centerl;
+}
 
 /* computer */
-@media screen and (min-width: 600px) {
-
-
-
+@media screen and (min-width: 600px){
+  body{
+    background-color: aquamarine;
+  }
+  .pic{
+    flex-drection:colum;
+    align-item: center;
+  }
+  
 }
+
+
+
 
